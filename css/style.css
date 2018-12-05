@@ -1,0 +1,27 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body {
+	background-color:#8EBCC5; 
+	
+}
+#wrapper {
+	width:980px;
+	min-height:500px; /* wächst mit  */
+	background-color:rgb(219,205,77,1);
+	margin:30px auto 0 auto; /* wo soll mein gelbes feld stehen */
+	border-radius: 120px 120px 120px 120px;  /* rundet die kanten ab   */
+	transition: all,.5s; /* transition hier, dann ändert es sich beim weg bewegen der Maus langsamer s bestimmt die zeit*/
+}
+#wrapper:hover {
+	background-color:rgb(219,205,77,.3);  /* wenn ich aufs Feld gehe verändert sich die durchsichtigkeit  */
+	
+}
+
+#header {
+	height:100px;
+	background-color:#DBCDFF;
+	border-radius: 120px 120px 0px 0px; /* o und o machen die unteren kanten vom header flach statt rund  */
+}
