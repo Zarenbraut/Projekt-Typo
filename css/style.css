@@ -22,6 +22,9 @@ body {
 
 #header {
 	height:100px;
-	background-color:#DBCDFF;
+	background:#DBCDFF url(../img/manray.jpg);
 	border-radius: 120px 120px 0px 0px; /* o und o machen die unteren kanten vom header flach statt rund  */
 }
+
+
+/* bild einfügen in css color von backround weg , dann transparent setzten , dann so: background:transparent url (img/May Ray.jpg */
