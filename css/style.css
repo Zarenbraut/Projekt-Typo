@@ -30,11 +30,11 @@ body {
 
 /* bild einfügen in css color von backround weg , dann transparent setzten , dann so: background:transparent url (img/May Ray.jpg */
 
-#navi li{
+#navi > li{   /* > bedeutet nur die unter elmenete ansprechen */
 	display:inline-block;
 	list-style-type:none;
 	}
-	#navi li a{
+	#navi > li > a{
 		text-decoration:none;
 		font-family:'Century Gothic', sans-serif;
 		font-size:20px;
@@ -43,4 +43,5 @@ body {
 	background-color:#E8C3CF;
 	position:absolute; /* dafür muss der header relativ gesetzt werden sonst macht absolut keinen sinn  */
 	bottom: -25px; /* setzte die Pixel - weil im verhältnis zu header    */
+	width:100%; /*weil absolut braucht er neue weite  */
 }
