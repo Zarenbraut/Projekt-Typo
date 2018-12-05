@@ -25,6 +25,7 @@ body {
 	background:#DBCDFF url(../img/manray.jpg); /*farbe sieht man nicht ist dahinter, daher könnte ich auch transparent setzten */
 	border-radius: 120px 120px 0px 0px; /* o und o machen die unteren kanten vom header flach statt rund  */
 	position:relative;
+	margin-bottotm:20px; /* damit der content 20px unter dem header beginnt */
 }
 
 
@@ -33,6 +34,7 @@ body {
 #navi > li{   /* > bedeutet nur die unter elmenete ansprechen */
 	display:inline-block;
 	list-style-type:none;
+	position:relative;/* weil mein navi ul ja absolut gesetzt ist braucht ich wieder was in relativ */
 	}
 	#navi > li > a{
 		text-decoration:none;
@@ -45,3 +47,12 @@ body {
 	bottom: -25px; /* setzte die Pixel - weil im verhältnis zu header    */
 	width:100%; /*weil absolut braucht er neue weite  */
 }
+
+#navi ul {
+	position: absolute;
+	display: none;
+}
+
+#navi li:hover ul {
+	display:block;
+	]
